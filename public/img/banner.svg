@@ -49,11 +49,11 @@
     </g>
     <text id="Questa_applicazione_è_stata_progettata_per_semplificare_la_creazione_di_progetti_multiple-file_." data-name="Questa applicazione è stata progettata per semplificare la creazione di progetti (multiple-file)." transform="translate(162 687)" fill="#707070" font-size="30" font-family="SegoeUI, Segoe UI" letter-spacing="0.04em"><tspan x="0" y="32">Questa applicazione è stata </tspan><tspan x="0" y="72">progettata per semplificare la </tspan><tspan x="0" y="112">creazione di progetti (multiple-file).</tspan></text>
     <text id="E_importante_utilizzare_questa_applicazione_con_piena_consapevolezza" data-name="E&apos; importante utilizzare questa applicazione con piena consapevolezza" transform="translate(162 603)" fill="#707070" font-size="25" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="27">E&apos; importante utilizzare questa </tspan><tspan x="0" y="60">applicazione con piena consapevolezza</tspan></text>
-    <g id="Group_1" data-name="Group 1" transform="translate(25 13)">
-      <rect id="Rectangle_16" data-name="Rectangle 16" width="148" height="148" rx="5" transform="translate(37 46)" fill="#fe3b3a"/>
-      <rect id="Rectangle_18" data-name="Rectangle 18" width="148" height="144" rx="5" transform="translate(37 227)" fill="#d9b629"/>
-      <rect id="Rectangle_17" data-name="Rectangle 17" width="148" height="148" rx="5" transform="translate(221 46)" fill="#3e9c3e"/>
-      <path id="Rectangle_19" data-name="Rectangle 19" d="M0,0H148a0,0,0,0,1,0,0V44A100,100,0,0,1,48,144H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(221 227)" fill="#292995"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(22 13)">
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="63" height="63" rx="5" transform="translate(37 46)" fill="#fe3b3a"/>
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="63" height="62" rx="5" transform="translate(37 123)" fill="#d9b629"/>
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="63" height="63" rx="5" transform="translate(116 46)" fill="#3e9c3e"/>
+      <path id="Rectangle_19" data-name="Rectangle 19" d="M0,0H63a0,0,0,0,1,0,0V0A62,62,0,0,1,1,62H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(116 123)" fill="#292995"/>
     </g>
   </g>
 </svg>
