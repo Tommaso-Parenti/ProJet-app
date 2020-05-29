@@ -1,0 +1,22 @@
+{
+  "name": "ProJet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "npm i": "npm i"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.5",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "jquery": "^3.5.1",
+    "open": "^7.0.4",
+    "package.json": "^2.0.1"
+  }
+}
