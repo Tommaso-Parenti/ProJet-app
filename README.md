@@ -1,7 +1,6 @@
 # ProJet App
-![banner](https://github.com/JonyDF/ProJet-app/blob/master/public/img/banner.svg)
-
 This application is designed for expert people, you need to know what are you going to do to avoid compromising your work
+![banner](https://github.com/JonyDF/ProJet-app/blob/master/public/img/banner.svg)
 
 ## What's in Project v1.0?
 - You can create C ++ projects (multiple-file)
