@@ -18,4 +18,4 @@ To use the application, simply write the name of the project and if necessary th
 
 ## ⚙ Installation
 ### 1. Step
-**[Download](bin/relase)** this source
+**[Download](https://github.com/JonyDF/ProJet-app/releases)** this source
