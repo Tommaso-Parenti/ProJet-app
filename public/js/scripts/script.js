@@ -34,10 +34,23 @@ async function createProject(dir, projectName, projectAuthor, check_integer_numb
   }
 
   await Promise.all([
-    fsPromise.writeFile(`${complete_dir}\\main.cpp`, cs._MAIN_CPP_((projectAuthor != null && projectAuthor.length != 0) ? '// '+projectAuthor+'\n' : '')),
-    fsPromise.writeFile(`${complete_dir}\\functions.cpp`, cs._FUNCTIONS_CPP_((check_integer_number) ? cs._FUNCTIONS_CHECK_INTEGER_NUMBER_ + '\n' : '', (getTime) ? cs._FUNCTIONS_GET_TIME_ + '\n' : '')),
-    fsPromise.writeFile(`${complete_dir}\\header.hpp`, cs._HEADER_HPP_((check_integer_number) ? cs._FUNCTIONS_CHECK_INTEGER_NUMBER_HEADER_ + '\n' : '', ((getTime) ? cs._FUNCTIONS_GET_TIME_HEADER_ + '\n' : ''))),
-    fsPromise.writeFile(`${complete_dir}\\general.hpp`, cs._GENERAL_HPP_(libs.join('\n'))),
+    fsPromise.writeFile(`${complete_dir}\\main.cpp`, cs._MAIN_CPP_(
+      (projectAuthor != null && projectAuthor.length != 0) ? '// '+projectAuthor+'\n' : ''
+    )),
+    fsPromise.writeFile(`${complete_dir}\\functions.cpp`, cs._FUNCTIONS_CPP_(
+      (check_integer_number) ? cs._FUNCTIONS_CHECK_INTEGER_NUMBER_ + '\n' : '',
+      (getTime) ? cs._FUNCTIONS_GET_TIME_ + '\n' : '',
+      (projectAuthor != null && projectAuthor.length != 0) ? '// ' + projectAuthor + '\n' : ''
+    )),
+    fsPromise.writeFile(`${complete_dir}\\header.hpp`, cs._HEADER_HPP_(
+      (check_integer_number) ? cs._FUNCTIONS_CHECK_INTEGER_NUMBER_HEADER_ + '\n' : '',
+      ((getTime) ? cs._FUNCTIONS_GET_TIME_HEADER_ + '\n' : ''),
+      (projectAuthor != null && projectAuthor.length != 0) ? '// '+projectAuthor+'\n' : ''
+    )),
+    fsPromise.writeFile(`${complete_dir}\\general.hpp`, cs._GENERAL_HPP_(
+      libs.join('\n'),
+      (projectAuthor != null && projectAuthor.length != 0) ? '// ' + projectAuthor + '\n': ''
+    )),
     fsPromise.writeFile(`${complete_dir}\\${projectName}.cbp`, cs._PROJECT_CBP_(projectName)),
   ]);
 }

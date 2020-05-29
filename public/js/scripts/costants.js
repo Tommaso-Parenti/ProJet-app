@@ -21,8 +21,8 @@ int main() {
  * @param {string} check_integer_number 
  * @param {string} getTime 
  */
-const _FUNCTIONS_CPP_ = (check_integer_number, getTime) => {
-	return `#include "general.hpp"
+const _FUNCTIONS_CPP_ = (check_integer_number, getTime, name) => {
+	return `${name}#include "general.hpp"
 #include "header.hpp"
 
 ${getTime}${check_integer_number}`;
@@ -32,8 +32,8 @@ ${getTime}${check_integer_number}`;
  * COSTANTE GENERAL
  * @param {string} libs 
  */
-const _GENERAL_HPP_ = (libs) => {
-	return `#ifndef GENERAL_HPP_INCLUDED
+const _GENERAL_HPP_ = (libs, name) => {
+	return `${name}#ifndef GENERAL_HPP_INCLUDED
 #define GENERAL_HPP_INCLUDED
 
 ${libs}
@@ -48,8 +48,8 @@ using namespace std;
  * @param {string} check_integer_numberHeader 
  * @param {string} getTimeHeader 
  */
-const _HEADER_HPP_ = (check_integer_numberHeader, getTimeHeader) => {
-	return `#ifndef HEADER_HPP_INCLUDED
+const _HEADER_HPP_ = (check_integer_numberHeader, getTimeHeader, name) => {
+	return `${name}#ifndef HEADER_HPP_INCLUDED
 #define HEADER_HPP_INCLUDED
 
 ${getTimeHeader}${check_integer_numberHeader}
