@@ -15,4 +15,4 @@ This application is designed for expert people, you need to know what are you go
 ## Credits
 - Gian Marco Del Freo, took care of the front-end part of the application
 - Dilan Bertini, took care of the back-end part of the application
-- ### Tommaso Parenti, took care in part of taking care of the texts of the application
+- Tommaso Parenti, took care in part of taking care of the texts of the application
