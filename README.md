@@ -3,7 +3,7 @@ This application is designed for expert people, you need to know what are you go
 
 ![banner](https://github.com/JonyDF/ProJet-app/blob/master/public/img/banner.svg)
 
-## What's in Project v1.0?
+## What's in ProJect v1.0?
 - You can create C ++ projects (multiple-file)
 - You can implement some useful functions for the development of the program
 - You can quickly implement libraries in your project
