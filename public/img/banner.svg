@@ -37,7 +37,7 @@
   <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
     <rect width="1802" height="1263" fill="#ebf4ff"/>
     <path id="Path_1" data-name="Path 1" d="M0,0H920V1263H180.988Z" transform="translate(882)" fill="#d9e3ef"/>
-    <text id="Projet" transform="translate(154 516)" fill="#707070" font-size="94" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">Projet</tspan></text>
+    <text id="ProJet" transform="translate(154 516)" fill="#707070" font-size="94" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">ProJet</tspan></text>
     <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Cattur3a)">
       <rect id="Cattur3a-2" data-name="Cattur3a" width="410" height="730" rx="20" transform="translate(1038 134)" fill="url(#pattern)"/>
     </g>
