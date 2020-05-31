@@ -1,4 +1,10 @@
+const current_version = "1.0.0";
 $(function(){
+    $.get("https://raw.githubusercontent.com/JonyDF/ProJet-app/new-version-checker/release_compiler/version.txt", (data) => {
+        if (data != current_version) {
+            alert("// TODO: UPDATE")
+        }
+    });
 
     if (localStorage.getItem('first-open') == null || localStorage.getItem('first-open') == 0) {
         $('#single-page-first-open').show();
