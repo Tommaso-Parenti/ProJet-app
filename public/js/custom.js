@@ -1,4 +1,23 @@
+const current_version = "1.0.0";
+
 $(function(){
+
+    // update-alert get check
+    $.get("https://raw.githubusercontent.com/JonyDF/ProJet-app/new-version-checker/release_compiler/version.txt", (data) => {
+        if (data != current_version) {
+           $('.body_black_transparent_overlay').fadeIn('fast');    
+           $('.update-alert').addClass('update-alert-active');
+        } else {
+            $('.body_black_transparent_overlay').fadeOut('fast');    
+           $('.update-alert').removeClass('update-alert-active');
+        }
+    });
+    
+    // update alert close event
+    $(document).on('click', '.update-alert-close-btn', function() {
+        $('.body_black_transparent_overlay').fadeOut('fast');
+        $('.update-alert').removeClass('update-alert-active');
+    });
 
     if (localStorage.getItem('first-open') == null || localStorage.getItem('first-open') == 0) {
         $('#single-page-first-open').show();
