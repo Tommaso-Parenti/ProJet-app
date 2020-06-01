@@ -3,7 +3,7 @@ const current_version = "1.0.0";
 $(function(){
 
     // update-alert get check
-    $.get("https://raw.githubusercontent.com/JonyDF/ProJet-app/new-version-checker/release_compiler/version.txt", (data) => {
+    $.get("https://raw.githubusercontent.com/JonyDF/ProJet-app/master/release_compiler/version.txt", (data) => {
         if (data != current_version) {
            $('.body_black_transparent_overlay').fadeIn('fast');    
            $('.update-alert').addClass('update-alert-active');
