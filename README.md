@@ -3,7 +3,7 @@ This application is designed for expert people, you need to know what are you go
 
 ![banner](https://github.com/JonyDF/ProJet-app/blob/master/public/img/banner.svg)
 
-## What's in ProJet v1.0?
+## What's in ProJet v1.0.0?
 - You can create C ++ projects (multiple-file)
 - You can implement some useful functions for the development of the program
 - You can quickly implement libraries in your project
@@ -15,7 +15,12 @@ To use the application, simply write the name of the project and if necessary th
 - Gian Marco Del Freo, took care of the front-end part of the application
 - Dilan Bertini, took care of the back-end part of the application
 - Tommaso Parenti, took care in part of taking care of the texts of the application
+- Mattia Simoncini, he offered to try the first version of the application
 
 ## ⚙ Installation
 ### 1. Step
-**[Download](https://github.com/JonyDF/ProJet-app/releases)** Set-Up releases.
+**[Download](https://github.com/JonyDF/ProJet-app/releases)** ProJet.zip latest version
+### 2. Step
+Start the set-up (.msi) and follow the installation steps
+### 3. Step
+Look for the application on the start menu and start saving time
